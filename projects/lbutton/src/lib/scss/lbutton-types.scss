@@ -1,0 +1,9 @@
+.container-lbutton {
+    padding: 2px;
+    .lbutton {
+        background: $primary-color;
+        @extend .primary-title;
+        width: 129px;
+        height: 42px;
+    }
+}
